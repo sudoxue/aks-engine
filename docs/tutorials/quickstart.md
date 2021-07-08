@@ -1,4 +1,7 @@
-# Quickstart Guide
+# Michael Xue Nodes
+
+1. You will need to turn off VPN to install AKS engine
+2. Turn on VPN
 
 AKS Engine (`aks-engine`) generates ARM (Azure Resource Manager) templates, and also deploys them via ARM to Microsoft Azure cloud environments. The input to the `aks-engine` command line tool is a cluster definition JSON file (referred to throughout the docs interchangeably as either "API model", "cluster config", or "cluster definition") which describes the desired cluster configuration, including enabled or disabled features, for both the control plane running on "master" VMs and one or more node pools.
 
